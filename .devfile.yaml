@@ -9,7 +9,7 @@ parent:
       container:
         image: python:3.11  # arbitrary
       attributes:
-        pod-override:
+        pod-overrides:
           spec:
             imagePullSecrets:
               - name: abcd
